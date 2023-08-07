@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blanchedalmond;
+    margin-bottom: 30px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+     display: flex;
+     justify-content: space-between; 
+    text-align: center;
+    flex-direction: column; 
+    
+    margin: 0 auto;
+
+    
+}
+.bar_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90%;
+    
+}
+.bar{
+    width: 20px;
+    background-color: blanchedalmond;
+    height: 80%;
+    margin: 0 1px;
+}
+.button_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+button ,select{
+    border-radius: 5px;
+    background-color: bisque;
+    text-align: center;
+    transition:  0.2s ease-in-out;
+    font-size: 14px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.sort{
+    width: 15%;
+}
+button:hover,select:hover{
+    background-color: lightgreen;
+}
